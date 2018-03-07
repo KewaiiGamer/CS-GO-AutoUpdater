@@ -1,0 +1,8 @@
+// update.txt
+//
+@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 1
+login anonymous 
+force_install_dir ../
+app_update 740
+quit
